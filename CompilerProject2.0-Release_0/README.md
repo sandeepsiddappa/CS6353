@@ -1,36 +1,48 @@
 # Lexer and Parser Project
 
-This project includes a lexer and parser for a custom programming language, using JFlex for lexical analysis and CUP for parsing. The project processes test files to validate syntax and generate tokens according to the language's defined grammar.
+This project includes a lexer and parser for a custom programming language, utilizing JFlex for lexical analysis and CUP for parsing. In this inital project's phase, primary goal at this phase is to identify valid tokens and check their validity.
 
-In this phase we are only detecting the valid tokens and also checking if they are valid or not.
+Included in the `testfiles` folder are three test files designed to check the following aspects:
+1. Regex patterns
+2. Terminal symbols
+3. Fail-case scenarios
 
-There are 3 test files inside the testfiles folder which checks for the following:
-1. **Regex**
-2. **Terminal symbols**
-3. **Fail-case**
+## Prerequisites
 
-
-### Prerequisites
+Before running the tests, ensure the following software is installed on your system:
 
 - Java Development Kit (JDK)
-- JFlex
-- CUP Parser Generator for Java
+- JFlex - The fast scanner generator for Java
+- CUP - Constructor for Useful Parsers, a parser generator for Java
 
 ## Running the Tests
 
-Go to the project directory **CompilerProject2.0-Release_0**
+Navigate to the project directory `CompilerProject2.0-Release_0` and follow these steps:
 
-Please do **$ make clean** as it cleans up all compiled files.
+1. **Clean the Build:**
+   To remove all compiled files and clean up the workspace, execute:
+   ```sh
+   make clean
 
-To compile the program(Lexer and Parser) do **$ make all**
+2.**Compile the Lexer and Parser:** 
+    To compile the program, run:
+    ```sh
+    make all
 
-1. To run specific test file:
-    - place the contents of input inside the **basicTest.txt**
-    - do **$ make run**
-    - an output will be generated in the **basicTest-output.txt** file and also it will be printed on the terminal with input and output file.
+3.**Run a Specific Test:**
+    Place the contents of your input inside `basicTest.txt` file.
+    Run the following command to execute the test:
+    ```sh
+    make run
+    The output will be generated in `basicTest-output.txt` and will also be printed to the terminal along with the input.
 
-2. To run the multiple tests and generate output files:
-    - Place your `.txt` test files inside the `testfiles/` directory.
-    - Execute the following command:
-    - ```sh
-    - make test
+4.**Run Multiple Tests:** NOTE: Running this command will do **clean** and **all**
+    Add your .txt test files to the `testfiles/` directory.
+    To process all tests and generate their output files, execute:
+    ```sh
+    make test
+    This will create corresponding -output.txt files for each test file within the `testfiles/ ` directory, displaying the results in the terminal.
+
+## AUTHOR
+NAME: **SANDEEP CHIKKAPLA SIDDAPPA**
+NET_ID : **sxc220127**
