@@ -24,26 +24,27 @@ Navigate to the project directory `CompilerProject2.0-Release_0` and follow thes
    ```sh
    make clean
 
-2.**Compile the Lexer and Parser:** 
+2. **Compile the Lexer and Parser:** 
     To compile the program, run:
     ```sh
     make all
 
-3.**Run a Specific Test:**
+3. **Run a Specific Test:**
     Place the contents of your input inside `basicTest.txt` file.
     Run the following command to execute the test:
     ```sh
     make run
     The output will be generated in `basicTest-output.txt` and will also be printed to the terminal along with the input.
 
-4.**Run Multiple Tests:** 
+4. **Run Multiple Tests:** 
     NOTE: Running this command will do **clean** and **all**
     Add your .txt test files to the `testfiles/` directory.
     To process all tests and generate their output files, execute:
     ```sh
     make test
-    This will create corresponding -output.txt files for each test file within the `testfiles/ ` directory, displaying the results in the terminal.
+    This will create corresponding `-output.txt` files to each test file within the `testfiles/` directory, displaying the results in the terminal.
 
-## AUTHOR
-NAME: **SANDEEP CHIKKAPLA SIDDAPPA**
-NET_ID : **sxc220127**
+## Author
+
+**Name:** Sandeep Chikkapla Siddappa  
+**Net ID:** sxc220127
