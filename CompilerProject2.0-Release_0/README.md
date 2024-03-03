@@ -30,9 +30,7 @@ To compile the program(Lexer and Parser) do **$ make all**
     - an output will be generated in the **basicTest-output.txt** file and also it will be printed on the terminal with input and output file.
 
 2. To run the multiple tests and generate output files:
-
-1. Place your `.txt` test files inside the `testfiles/` directory.
-2. Execute the following command:
-
-```sh
-make test
+    - Place your `.txt` test files inside the `testfiles/` directory.
+    - Execute the following command:
+    - ```sh
+    - make test
