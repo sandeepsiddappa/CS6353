@@ -40,7 +40,7 @@ Navigate to the project directory `CompilerProject2.0-Release_0` and follow thes
     The output will be generated in `basicTest-output.txt` and will also be printed to the terminal along with the input.
 
 4. **Run Multiple Tests:** 
-    NOTE: Running this command will do **clean** and **all**
+    NOTE: Running this command will do **clean** and **all**. 
     Add your .txt test files to the `testfiles/` directory.
     To process all tests and generate their output files, execute:
     ```sh
