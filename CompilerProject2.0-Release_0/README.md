@@ -23,17 +23,20 @@ Navigate to the project directory `CompilerProject2.0-Release_0` and follow thes
    To remove all compiled files and clean up the workspace, execute:
    ```sh
    make clean
+   ```
 
 2. **Compile the Lexer and Parser:** 
     To compile the program, run:
     ```sh
     make all
+    ```
 
 3. **Run a Specific Test:**
     Place the contents of your input inside `basicTest.txt` file.
     Run the following command to execute the test:
     ```sh
     make run
+    ```
     The output will be generated in `basicTest-output.txt` and will also be printed to the terminal along with the input.
 
 4. **Run Multiple Tests:** 
@@ -42,6 +45,7 @@ Navigate to the project directory `CompilerProject2.0-Release_0` and follow thes
     To process all tests and generate their output files, execute:
     ```sh
     make test
+    ```
     This will create corresponding `-output.txt` files to each test file within the `testfiles/` directory, displaying the results in the terminal.
 
 ## Author
