@@ -1,0 +1,15 @@
+Token #49, with value = \\bad floats; at line 0, column 0
+Illegal char '.' at line 1, column 0
+Token #25, with value = 1; at line 1, column 1
+Token #25, with value = 2; at line 2, column 0
+Illegal char '.' at line 2, column 1
+Token #49, with value = \\bad chars; at line 3, column 0
+Illegal char '_' at line 4, column 0
+Illegal char '$' at line 5, column 0
+Illegal char '.' at line 6, column 0
+Illegal char '^' at line 7, column 0
+Illegal char '#' at line 8, column 0
+Token #49, with value = \\invalid id; at line 9, column 0
+Token #2, with value = first; at line 10, column 0
+Illegal char '_' at line 10, column 5
+Token #2, with value = x; at line 10, column 6

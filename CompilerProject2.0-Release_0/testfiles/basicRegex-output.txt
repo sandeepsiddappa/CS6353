@@ -1,0 +1,49 @@
+Token #2, with value = varName; at line 0, column 0
+Token #25, with value = 100; at line 1, column 0
+Token #25, with value = 01; at line 2, column 0
+Token #22, with value = 3.14; at line 3, column 0
+Illegal char ''' at line 4, column 0
+Illegal char '\' at line 4, column 1
+Illegal char ''' at line 4, column 2
+Token #23, with value = 'z'; at line 5, column 0
+Token #23, with value = '_'; at line 6, column 0
+Token #23, with value = '.'; at line 7, column 0
+Illegal char '"' at line 8, column 0
+Token #2, with value = ab; at line 8, column 1
+Illegal char '"' at line 8, column 3
+Token #2, with value = c; at line 8, column 4
+Illegal char '"' at line 8, column 5
+Illegal char '"' at line 9, column 0
+Token #2, with value = ab; at line 9, column 1
+Token #2, with value = c; at line 9, column 4
+Illegal char '"' at line 9, column 5
+Illegal char '"' at line 10, column 0
+Token #2, with value = ab; at line 10, column 1
+Illegal char '\' at line 10, column 3
+Token #2, with value = c; at line 10, column 4
+Illegal char '"' at line 10, column 5
+Illegal char '"' at line 11, column 0
+Token #2, with value = sphinx; at line 11, column 1
+Token #2, with value = of; at line 11, column 8
+Token #2, with value = black; at line 11, column 11
+Token #2, with value = quartz; at line 11, column 17
+Token #4, with value = ,; at line 11, column 23
+Token #2, with value = judge; at line 11, column 24
+Token #2, with value = my; at line 11, column 30
+Illegal char '\' at line 11, column 33
+Token #2, with value = vow; at line 11, column 34
+Illegal char '"' at line 11, column 37
+Illegal char '"' at line 12, column 0
+Token #2, with value = sphinx; at line 12, column 1
+Token #2, with value = of; at line 12, column 8
+Token #2, with value = black; at line 12, column 11
+Token #2, with value = quartz; at line 12, column 17
+Token #4, with value = ,; at line 12, column 23
+Token #2, with value = judge; at line 12, column 24
+Token #2, with value = my; at line 12, column 30
+Token #2, with value = vow; at line 13, column 0
+Illegal char '"' at line 13, column 3
+Token #49, with value = \\this is a comment; at line 14, column 0
+Token #50, with value = \*
+this is a multiline block comment.
+*\; at line 15, column 0
