@@ -22,7 +22,7 @@ run: basicTest.txt
 all: Lexer.java parser.java $(FILE:java=class)
 
 basicTest.txt: all
-		$(JAVA) -cp $(CP) LexerTest basicTest.txt > basicTest-output.txt
+		$(JAVA) -cp $(CP) LexerTest basicTest.txt > basicTest-output.txt 2>&1
 		cat basicTest.txt
 		cat -n basicTest-output.txt
 
