@@ -16,7 +16,7 @@ Before running the tests, ensure the following software is installed on your sys
 - CUP - Constructor for Useful Parsers, a parser generator for Java
 
 ## Running the Tests
-Unzip the `CompilerProject2.0-Release_0.zip`
+Unzip the `CompilerProject2.0-Release_0.zip` file
 Navigate to the project directory `CompilerProject2.0-Release_0` and follow these steps:
 
 1. **Clean the Build:**
